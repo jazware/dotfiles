@@ -20,11 +20,11 @@
   ],
   "modules-right": [
     "wlr/taskbar",
+    "tray",
     "idle_inhibitor",
     "pulseaudio_slider",
     "pulseaudio",
-    "network",
-    "hyprland/language"
+    "network"
   ],
   /* === Modules Left === */
   "custom/archicon": {
@@ -110,6 +110,10 @@
         ""
       ]
     }
+  },
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
   },
   "network": {
     "format": "{ifname}",

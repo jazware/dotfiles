@@ -24,8 +24,7 @@ window#waybar.hidden {
 #idle_inhibitor,
 #pulseaudio,
 #pulseaudio_slider,
-#network,
-#language {
+#network {
   color: #161320;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -46,7 +45,7 @@ window#waybar.hidden {
 /* Separation to the rigth */
 #clock,
 #temperature,
-#language {
+#network {
   margin-right: 5px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -152,12 +151,14 @@ window#waybar.hidden {
 
 #network {
   background: #CBA6F7;
-  padding-right: 13px;
+  padding-right: 15px;
 }
 
-#language {
-  background: #A6E3A1;
-  padding-right: 15px;
+#tray {
+  background: rgba(34, 36, 54, 0.5);
+  border-radius: 10px;
+  padding: 0px 5px;
+  margin: 6px 5px;
 }
 
 /* === Optional animation === */
